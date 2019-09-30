@@ -72,23 +72,17 @@ class MyApp extends App {
             <span className="stephen">Stephen</span> Vector
             <span className="space">_</span>
           </h1>
+
           <h2>Frontend Developer</h2>
+          
+          <p><a href="https://github.com/stephenvector/" target="_blank">GitHub</a></p>
 
           <p>
             I'm a web developer that specializes in writing performant frontend
             applications. I live in New York City, NY with my wife Lia and our
-            pet roomba Ruby.
+            pet roomba, Ruby.
           </p>
 
-          <ul>
-            <li>React</li>
-            <li>TypeScript</li>
-            <li>Redux | MobX</li>
-            <li>WebSockets</li>
-            <li>MongoDB</li>
-            <li>Firebase</li>
-            <li>Next.js</li>
-          </ul>
         </header>
         <section>
           <Component {...pageProps} />
