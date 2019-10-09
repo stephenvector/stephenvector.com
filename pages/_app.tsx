@@ -9,7 +9,6 @@ class MyApp extends App {
       <div className="wrapper">
         <Global
           styles={css`
-            @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,800&display=swap");
             @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:100,400,700&display=swap");
             *,
             *:before,
@@ -17,7 +16,6 @@ class MyApp extends App {
               box-shadow: inherit;
             }
             body {
-              /* font-family: "IBM Plex Sans", sans-serif; */
               font-family: "IBM Plex Mono", monospace;
               margin: 0;
               padding: 0;
@@ -37,7 +35,6 @@ class MyApp extends App {
               font-weight: 800;
               letter-spacing: -0.03em;
             }
-
             @keyframes blink {
               0% {
                 color: #fff;
@@ -63,6 +60,9 @@ class MyApp extends App {
             .wrapper {
               margin: 0 0 0 12rem;
               max-width: 32rem;
+            }
+            header {
+              padding-top:3rem;
             }
           `}
         />
