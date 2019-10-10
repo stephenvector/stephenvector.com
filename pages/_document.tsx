@@ -5,7 +5,7 @@ class CustomDocument extends Document {
     return (
       <Html>
         <Head>
-          <title>Stephen Vector | Frontend Developer | NYC
+          <title>Stephen Vector | Frontend Developer | NYC</title>
           <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
         </Head>
         <body>
