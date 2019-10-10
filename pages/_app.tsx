@@ -59,15 +59,16 @@ class MyApp extends App {
             }
             .wrapper {
               padding: 1rem;
+              max-width: 32rem;
+              margin: 0 auto;
             }
             header {
               padding-top:3rem;
             }
 
-            @media screen and (minWidth: 44rem) {
+            @media screen and (min-width: 44rem) {
               .wrapper {
                 margin: 0 0 0 12rem;
-                max-width: 32rem;
               }
             }
           `}
