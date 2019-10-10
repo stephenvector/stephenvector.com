@@ -1,16 +1,11 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
-class MyDocument extends Document {
-  static async getInitialProps(ctx) {
-    const initialProps = await Document.getInitialProps(ctx)
-    return { ...initialProps }
-  }
-
+class CustomDocument extends Document {
   render() {
     return (
       <Html>
         <Head>
-          <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+          <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
         </Head>
         <body>
           <Main />
@@ -21,4 +16,4 @@ class MyDocument extends Document {
   }
 }
 
-export default MyDocument
+export default CustomDocument;
