@@ -71,6 +71,8 @@ class MyApp extends App {
                 margin: 0 0 0 12rem;
               }
             }
+
+            a {color: #34495e}
           `}
         />
 
