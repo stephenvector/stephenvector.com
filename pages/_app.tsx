@@ -9,14 +9,14 @@ class MyApp extends App {
       <div className="wrapper">
         <Global
           styles={css`
-            @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:100,400,700&display=swap");
+            @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
             *,
             *:before,
             *:after {
               box-shadow: inherit;
             }
             body {
-              font-family: "IBM Plex Mono", monospace;
+              font-family: 'Source Sans Pro', sans-serif;
               margin: 0;
               padding: 0;
             }
