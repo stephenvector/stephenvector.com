@@ -85,6 +85,8 @@ class MyApp extends App {
           <h2>Frontend Developer</h2>
           
           <p><a href="https://github.com/stephenvector/" target="_blank">GitHub</a></p>
+          
+          <p><a href="https://gitlab.com/stephenvector/" target="_blank">GitLab</a></p>
 
           <p>
             I'm a web developer that specializes in writing performant frontend
