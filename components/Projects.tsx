@@ -91,7 +91,7 @@ export default function Projects() {
                 initial load time.
               </p>
               <h3>Justseeds</h3>
-              <a href="justseeds.org" target="_blank">
+              <a href="https://justseeds.org" target="_blank">
                 justseeds.org
               </a>
               <p>
