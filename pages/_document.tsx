@@ -5,6 +5,7 @@ class CustomDocument extends Document {
     return (
       <Html>
         <Head>
+          <title>Stephen Vector | Frontend Engineer</title>
           <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
           <script type="text/javascript" src="/static/segment.js" />
         </Head>

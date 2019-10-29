@@ -11,7 +11,6 @@ const HeaderStyled = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background: #56e; */
   position: relative;
   text-align: left;
   color: #fff;
