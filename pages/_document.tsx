@@ -6,6 +6,7 @@ class CustomDocument extends Document {
       <Html>
         <Head>
           <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+          <script type="text/javascript" src="/static/segment.js" />
         </Head>
         <body>
           <Main />
