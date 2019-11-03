@@ -32,6 +32,9 @@ class MyApp extends App {
               box-sizing: border-box;
               font-size: 20px;
             }
+            @media screen and (max-width: 768px) {
+              font-size: 17px;
+            }
             h1,
             h2,
             h3,
