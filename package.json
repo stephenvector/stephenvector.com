@@ -8,7 +8,7 @@
     "@emotion/core": "^10.0.17",
     "@emotion/styled": "^10.0.22",
     "@stephenvector/picto": "^0.1.19",
-    "@stephenvector/prefab": "^0.2.4",
+    "@stephenvector/prefab": "^0.3.3",
     "@zeit/next-css": "^1.0.1",
     "next": "^9.0.6",
     "next-compose-plugins": "^2.2.0",
