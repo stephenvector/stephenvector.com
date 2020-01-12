@@ -3,18 +3,13 @@ import { DocumentContext } from "next/document";
 import Link from "next/link";
 
 class MyDocument extends Document {
-  static async getInitialProps(ctx: DocumentContext) {
-    const initialProps = await Document.getInitialProps(ctx);
-    return { ...initialProps };
-  }
-
   render() {
     return (
       <Html>
         <Head />
         <body>
           <header className="header">
-            <style global jsx>{`
+            <style jsx global>{`
               *,
               *:before,
               *:after {
