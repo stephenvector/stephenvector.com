@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "ts-node generate.ts"
+    "build": "ts-node ./src/generate.ts"
   },
   "devDependencies": {
     "@types/fs-extra": "^8.0.1",
