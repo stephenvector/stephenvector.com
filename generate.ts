@@ -17,6 +17,7 @@ const template = `
   </head>
   <body>
     <header>
+      <h1><a href="/">Stephen Vector</a></h1>
     </header>
     <section>
       {{main}}
@@ -27,16 +28,22 @@ const template = `
 </html>
 `
 
+const linksOnFrontPage = [];
+
 docFiles.forEach(filename => {
   const filePath = path.resolve(__dirname, './docs/', filename)
 
   const { dir, name } = path.parse(filePath)
 
   const outputFilePath = `${dir}/${name}/index.html`.replace(__dirname, '')
+  
+  const fileUrl = `${dir}/${name}/`;
 
   const fileMarkdown = fs.readFileSync(filePath).toString();
 
   const parsedMarkdown = matter(fileMarkdown)
+  
+  linksOnFrontPage.push(`<a href="${permalink}">${parsedMarkdown.data.title}</a>`);
 
   let htmlOutput = `${template}`
   htmlOutput = htmlOutput.replace('{{head}}',`<title>${parsedMarkdown.data.title}</title>`)
@@ -50,5 +57,11 @@ docFiles.forEach(filename => {
 
   fs.outputFileSync(path.join(outputDir,outputFilePath), minifiedHTML);
 })
+
+let homepageHTML = `${template}`;
+homepageHTML = homepageHTML.replace('{{head}}', '<title>Stephen Vector</title>');
+homepageHTML = homepageHTML.replace('{{main}}', linksOnFrontPage.join(''));
+homepageHTML = minify(homepageHTML, { collapseWhitespace: true})
+fs.outputFileSync(path.join(outputDir, 'index.html'), homepageHTML);
 
 // Generate Sitemap
