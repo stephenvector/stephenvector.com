@@ -4,7 +4,7 @@ import marked from 'marked'
 import { minify } from 'html-minifier'
 import matter from 'gray-matter'
 
-const outputDir = path.resolve(__dirname, "../pages");
+const outputDir = path.resolve(__dirname, "../dist");
 const docsPath = path.resolve(__dirname, "docs");
 const docFiles = fs.readdirSync(docsPath);
 
