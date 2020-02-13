@@ -28,7 +28,7 @@ const template = `
 </html>
 `
 
-const linksOnFrontPage = [];
+const linksOnFrontPage: string[] = [];
 
 docFiles.forEach(filename => {
   const filePath = path.resolve(__dirname, './docs/', filename)
@@ -37,7 +37,7 @@ docFiles.forEach(filename => {
 
   const outputFilePath = `${dir}/${name}/index.html`.replace(__dirname, '')
   
-  const fileUrl = `${dir}/${name}/`;
+  const permalink = `${dir}/${name}/`;
 
   const fileMarkdown = fs.readFileSync(filePath).toString();
 
