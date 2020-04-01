@@ -1,0 +1,14 @@
+VSCode copies blank selections by default. Here's how to change this behavior.
+
+Open preferences/settings
+
+go to eeditor section
+
+Editor: Empty Selection Clipboard
+Controls whether copying without a selection copies the current line.
+
+
+or in settings.json
+```
+editor.emptySelectionClipboard: false
+```
