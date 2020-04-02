@@ -1,0 +1,29 @@
+# TypeScript Snippets
+
+ ```tsx
+
+interface Cat {
+  name: string,
+  age: number
+}
+
+type CatProperty = keyof Cat;
+
+type CatLabels {[k in CatProperty]: string}
+
+// OR
+
+type CatLabelsRecord = Record<CatProperty, string>
+
+type Foo = 'a' | 'b';
+type Bar = {[key in Foo]: any};
+Though Bar has no index signature (i.e., you can't then do (obj as Bar)[value as Foo]).
+
+Edit: Though if you could make the caveat a non-issue, I'd be eternally grateful!
+
+Use Record instead!
+
+type Foo = 'a' | 'b'
+type Bar = Record<Foo, any>
+ 
+ ```
