@@ -11,13 +11,14 @@
     {
       "src": "/512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "start_url": "/",
   "background_color": "#fff",
   "display": "standalone",
   "scope": "/",
-  "theme_color": "#000",
+  "theme_color": "#fff",
   "shortcuts": []
 }
