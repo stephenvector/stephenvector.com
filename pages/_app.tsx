@@ -1,5 +1,6 @@
 import React from "react";
 import App from "next/app";
+import Head from "next/head";
 import { Global, css } from "@emotion/core";
 import Header from "../components/Header";
 
@@ -8,11 +9,12 @@ class MyApp extends App {
     const { Component, pageProps } = this.props;
     return (
       <div className="wrapper">
+        <Head>
+          <title>Stephen Vector | Frontend Engineer | Seattle, WA</title>
+        </Head>
         <Global
           styles={css`
-
-@import url('https://fonts.googleapis.com/css?family=Google+Sans:400,700');
-
+            @import url("https://fonts.googleapis.com/css?family=Google+Sans:400,700");
 
             *,
             *:before,
