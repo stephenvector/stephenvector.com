@@ -159,7 +159,7 @@ export default function Header() {
           </h1>
 
           <h2>Frontend Engineer</h2>
-          <h3>New York, NY</h3>
+          <h3>Seattle, WA</h3>
 
           <p>
             I'm a web developer that specializes in writing performant frontend
