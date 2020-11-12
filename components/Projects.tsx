@@ -72,14 +72,14 @@ export default function Projects() {
                 content types Built in React, using Google Firebase for
                 authentication, cloud functions, media management, and database.
               </p>
-              {/* <h3>Poursteady</h3>
+              <h3>Poursteady</h3>
               <a href="https://poursteady.com">poursteady.com</a>
               <p>
-                Developed a real1remtime client-server syncing application using
+                Developed a realtime client-server syncing application using
                 Node.js that kept coffee machines in sync with web app.
                 Contributed to frontend website construction. Used Firebase for
                 authentication, realtime database, and cloud functions.
-              </p> */}
+              </p>
               <h3>Urban Design Forum</h3>
               <a href="https://urbandesignforum.org" target="_blank">
                 urbandesignforum.org
@@ -98,16 +98,6 @@ export default function Projects() {
                 Created a custom theme for WordPress to sort and filter
                 thousands of posts across multiple post types. Sales went up 60%
                 after launch of site redesign.
-              </p>
-              <h3>Fast Food Justice</h3>
-              <a href="https://fastfoodjustice.org" target="_blank">
-                fastfoodjustice.org
-              </a>
-              <p>
-                This is an editable frontend web app that supports translation
-                across a dynamic number of languages. Built custom registration
-                system for managing paid memberships that syncs with
-                transactional email providers.
               </p>
               <h3>The Future of the Catskill Interpretive Center</h3>
               <a href="https://future.cic.design" target="_blank">
